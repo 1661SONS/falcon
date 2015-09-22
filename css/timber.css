@@ -1144,7 +1144,7 @@ a.overlay-info:not(:hover){
 	padding-right: 9rem;
 	padding-left: 0;
 }
-.feature-colum.mediumn .feature-icon{
+.feature-colum.medium .feature-icon{
 	font-size: 3rem;
 }
 .feature-column.medium .feature-text{
@@ -3464,7 +3464,7 @@ pre code{
 .border-turquoise{border-color: #00a186;}
 .border-hover-turquoise:hover{border-color: #008b73;}
 .border-turquoise-light{border-color: #00bd9c;}
-.border-hover-turquoise-light:hover{border-color: #00a186; }
+.border-hover-turquoise-light:hover{border-color: #00a186;}
 .border-green{border-color: #1bb05d; color: #1bb05d;}
 .border-hover-green:hover{border-color: #179851;}
 .border-green-light{border-color: #1ecd6d;}
@@ -3482,8 +3482,8 @@ pre code{
 .border-purple-light{border-color: #b078c6;}
 .border-hover-purple-light:hover{border-color: #8f3faf;}
 .border-yellow{border-color: #f3b100;}
-.border-hover-yellow:hover{border-color: #e2a50b;;}
-.border-yellow-light{border-color: #ffbe12;}
+.border-hover-yellow:hover{border-color: #e2a50b;}
+.border-yellow-light{border-color: #f0ff00;}
 .border-hover-yellow-light:hover{border-color: #f3b100;}
 .border-orange{border-color: #e87f04;}
 .border-hover-orange:hover{border-color: #df6f0b;;}
@@ -3574,7 +3574,7 @@ pre code{
 .bkg-yellow{background: #f3b100; border-color: #f3b100;}
 .bkg-hover-yellow:hover{background: #e2a50b; border-color: #e2a50b;}
 .bkg-yellow-light{background: #ffbe12; border-color: #ffbe12;}
-.bkg-hover-yellow-light:hover{background: #f3b100; border-color: #f3b100;}
+.bkg-hover-yellow-light:hover{background: #f0ff00; border-color: #f0ff00;}
 .bkg-orange{background: #e87f04; border-color: #e87f04;}
 .bkg-hover-orange:hover{background: #df6f0b; border-color: #df6f0b;}
 .bkg-orange-light{background: #f59d00; border-color: #f59d00;}
@@ -3660,7 +3660,7 @@ pre code{
 .color-hover-purple:hover{color: #7b3697;}
 .color-purple-light{color: #b078c6;}
 .color-hover-purple-light:hover{color: #8f3faf;}
-.color-yellow{color: #f3b100;}
+.color-yellow{color: #f0ff00;}
 .color-hover-yellow:hover{ color: #e2a50b;}
 .color-yellow-light{color: #ffbe12;}
 .color-hover-yellow-light:hover{color: #f3b100;}
@@ -3674,6 +3674,7 @@ pre code{
 .color-hover-red-light:hover{color: #c23824;}
 .color-white{color: #ffffff;}
 .color-hover-white:hover{color: #ffffff;}
+.color-hover-black:hover{color: #000;}
 .color-grey{color: #666666;}
 .color-hover-grey:hover{color: #555555;}
 .color-grey-light{color: #999999;}
