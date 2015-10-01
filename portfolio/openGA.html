@@ -30,6 +30,56 @@
 </head>
 <body>
 
+<!-- Overlay Navigation Menu -->
+	<div class="overlay-navigation-wrapper hide-on-desktop">
+		<div class="overlay-navigation-inner">
+			<div class="overlay-navigation-header row full-width">
+				<div id="overlay-nav-hide" class="navigation-hide">
+					<a href="#">
+						<span class="icon-cancel medium"></span>
+					</a>
+				</div>
+			</div>
+			<nav class="overlay-navigation">
+				<ul>
+					<li>
+						<a href="../index.html">HOME</a>
+						<a href="#" class="contains-sub-menu">WORK</a>
+						<ul class="sub-menu">
+							<li>
+								<a href="portfolio/meded.html">MedEd + Google Glass</a>
+							</li>
+							<li>
+								<a href="portfolio/wholehealth.html">Mobile Healthcare</a>
+							</li>
+							<li>
+								<a href="portfolio/engineering.html">Green Engineering</a>
+							</li>
+							<li>
+								<a href="portfolio/typingclub.html">Teaching Tech</a>
+							</li>
+							<li>
+								<a href="portfolio/openGA.html">Startups for the Intrapreneurs</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="preach.html">PREACH</a>
+					</li>
+					<li>
+						<a href="about.html">ABOUT</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- <div class="overlay-navigation-footer row full-width">
+				<div class="column width-12">
+					<p class="copyright no-margin-bottom">&copy; 2015 JULIA CHRISTIAN.</p>
+				</div>
+			</div> -->
+		</div>
+	</div>
+	<!-- Overlay Navigation Menu End -->
+
 	<div class="wrapper">
 		<div class="wrapper-inner">
 
@@ -39,18 +89,25 @@
 					<div class="row nav-bar reveal-side-navigation">
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
-								<a href="../index.html"><img src="../images/falcon.png" alt="" /></a>
-								<a href="../index.html"><img src="../images/stackedsigw.png" alt="" /></a>
+								<a href="#tops"><img src="../images/falcon.png" alt="Falcon Logo" /></a>
+								<a href="../index.html"><img src="../images/stackedsigw.png" alt="Signature Logo" /></a>
 							</div>
-							<!-- <div id="side-nav-show" class="navigation-show">
+							<!-- <div id="overlay-nav-show" class="navigation-show">
 								<a href="#">
 									<span class="icon-menu medium"></span>
 								</a>
 							</div> -->
+
+							<div id="overlay-nav-show" class="navigation-show">
+								<a href="#">
+									<span class="icon-menu hide-on-desktop hamburger"></span>
+								</a>
+							</div>
+							
 							<nav class="navigation">
 								<ul>
 									<li>
-										<a href="../index.html#THEGRIND">Work</a>
+										<a href="../index.html#thegrind">Work</a>
 									</li>
 									<li>
 										<a href="../preach.html">Preach</a>
@@ -59,7 +116,7 @@
 										<a href="../about.html">About</a>
 									</li>									
 									<li>
-										<a href="#CONTACT">Contact</a>
+										<a href="#contact">Contact</a>
 									</li>
 								</ul>
 							</nav>
@@ -72,7 +129,8 @@
 			<!-- Content -->
 			<div class="content clearfix reveal-side-navigation">
 
-				<!-- Parallax Section -->
+			<!-- Parallax Section -->
+			<section id="tops">	
 				<div class="parallax fixed-height" data-src="../images/portfolio/openGA/team2.jpg">
 					<div class="tmp-content">
 						<div class="tmp-content-inner left v-align-bottom color-white">
@@ -85,7 +143,8 @@
 						</div>
 					</div>
 				</div>
-				<!-- Parallax Section End -->
+			</section>
+			<!-- Parallax Section End -->
 
 				<!-- Content Section -->
 				<div class="section-block replicable-content" style="background-color:#1d1d7a; padding:25px 0 0 0;">
@@ -107,26 +166,26 @@
 							<div class="row content-grid-3 masonry-grid" data-grid-ratio="1.5">
 								<div class="grid-item portrait">
 									<div class="thumbnail" style="background-color:#000;">
-										<img src="../images/portfolio/openGA/register.png" alt=""/>
+										<img src="../images/portfolio/openGA/register.png" alt="Mockup"/>
 									</div>
 								</div>
 							<a href="../images/portfolio/openGA/openGA.pdf">
 								<div class="grid-item">
 									<div class="thumbnail">
-										<img src="../images/portfolio/openGA/seanflow.jpg" alt=""/>
+										<img src="../images/portfolio/openGA/seanflow.jpg" alt="Persona Slide"/>
 									</div>
 								</div>
 							</a>
 							<a href="../images/portfolio/openGA/wirekatalyst.pdf">
 								<div class="grid-item">
 									<div class="thumbnail">
-										<img src="../images/portfolio/openGA/wirekatalyst3.png" alt=""/>
+										<img src="../images/portfolio/openGA/wirekatalyst3.png" alt="Wireframe"/>
 									</div>
 								</div>
 							</a>
 								<div class="grid-item">
 									<div class="thumbnail">
-										<img src="../images/portfolio/openGA/userflow.png" alt=""/>
+										<img src="../images/portfolio/openGA/userflow.png" alt="User Flow Chart"/>
 									</div>
 								</div>
 								<div class="grid-item project-5-1">
@@ -143,7 +202,7 @@
 				<!-- Portfolio 5 End -->
 
 				<!-- Blue Tooltip Banner -->
-				<div class="section-block">
+				<div class="section-block hide-on-mobile">
 					<div class="banner-blue">
 						<div class="column width-11">
 							<p class="center small font-alt-2"><strong>Click</strong> or <strong>Tap</strong> the Images above to view full PDF</p>
@@ -203,13 +262,13 @@
 			<!-- Content End -->
 
 			<!-- Footer 1-->
-			<section id="CONTACT">
+			<section id="contact">
 			<footer class="footer-1 footer">
 				<div class="footer-top left">
 					<div class="row">
 						<div class="column width-12 center">
 							<div class="footer-logo">
-								<img src="../images/falconsig.png" alt="" />
+								<img src="../images/falconsig.png" alt="Falcon Logo" />
 							</div>
 						</div>
 						<div class="column width-6 push-3 center">

@@ -24,6 +24,55 @@
 </head>
 <body class="home-page">
 
+<!-- Overlay Navigation Menu -->
+	<div class="overlay-navigation-wrapper hide-on-desktop">
+		<div class="overlay-navigation-inner">
+			<div class="overlay-navigation-header row full-width">
+				<div id="overlay-nav-hide" class="navigation-hide">
+					<a href="#">
+						<span class="icon-cancel medium"></span>
+					</a>
+				</div>
+			</div>
+			<nav class="overlay-navigation">
+				<ul>
+					<li>
+						<a href="#" class="contains-sub-menu">WORK</a>
+						<ul class="sub-menu">
+							<li>
+								<a href="portfolio/meded.html">MedEd + Google Glass</a>
+							</li>
+							<li>
+								<a href="portfolio/wholehealth.html">Mobile Healthcare</a>
+							</li>
+							<li>
+								<a href="portfolio/engineering.html">Green Engineering</a>
+							</li>
+							<li>
+								<a href="portfolio/typingclub.html">Teaching Tech</a>
+							</li>
+							<li>
+								<a href="portfolio/openGA.html">Startups for the Intrapreneurs</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="preach.html">PREACH</a>
+					</li>
+					<li>
+						<a href="about.html">ABOUT</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- <div class="overlay-navigation-footer row full-width">
+				<div class="column width-12">
+					<p class="copyright no-margin-bottom">&copy; 2015 JULIA CHRISTIAN.</p>
+				</div>
+			</div> -->
+		</div>
+	</div>
+	<!-- Overlay Navigation Menu End -->
+
 	<div class="wrapper">
 		<div class="wrapper-inner">
 
@@ -32,19 +81,27 @@
 				<div class="header-inner">
 					<div class="row nav-bar reveal-side-navigation">
 						<div class="column width-12 nav-bar-inner">
-							<div class="logo">
-								<a href="index.html"><img src="images/falcon.png"></a>
+							<div class="logo hide-on-mobile">
+								<a href="#tops"><img src="images/falcon.png"></a>
 								<a href="index.html"><img src="images/stackedsigw.png"></a>
 							</div>
-							<!-- <div id="side-nav-show" class="navigation-show">
+
+							<!-- <div id="overlay-nav-show" class="navigation-show">
 								<a href="#">
-									<span class="icon-menu medium"></span>
+									<span class="icon-menu medium hide-on-desktop"></span>
 								</a>
 							</div> -->
+
+							<div id="overlay-nav-show" class="navigation-show">
+								<a href="#">
+									<span class="icon-menu hide-on-desktop hamburger"></span>
+								</a>
+							</div>
+
 							<nav class="navigation">
 								<ul>
 									<li>
-										<a href="#THEGRIND">Work</a>
+										<a href="#thegrind">Work</a>
 									</li>
 									<li>
 										<a href="preach.html">Preach</a>
@@ -53,7 +110,7 @@
 										<a href="about.html">About</a>
 									</li>									
 									<li>
-										<a href="#CONTACT">Contact</a>
+										<a href="#contact">Contact</a>
 									</li>									
 								</ul>
 							</nav>
@@ -67,32 +124,34 @@
 			<div class="content clearfix reveal-side-navigation">
 				
 				<!-- Fullscreen Slider Section -->
-				<div class="section-block">
-					<div class="tm-slider-container full-width-slider">
-						<ul class="tms-slides">
-							<li class="tms-slide" data-image data-force-fit>
-								<h1 class="tms-caption title-medium letter-spaced weight-bold color-white no-margin-bottom"
-									data-offsety="-12"
-									data-animate-in="opacity:0;transY:-20;duration:600ms;delay:100ms;easing:swing;"
-								>
-									JULIA CHRISTIAN.
-								</h1>
-								<div class="clear"></div>
-								<p class="tms-caption text-medium weight-thin no-margin-bottom font-alt-2 color-white hide-on-mobile"
-									data-offsety="32"
-									data-animate-in="opacity:0;transY:10px;duration:600ms;easing:swing;delay:700ms;"
-								>
-									UX Designer // Made in Atlanta
-								</p>
-								<img data-src="images/slider/atlantafogbw.jpeg">
-							</li>
-						</ul>
+				<section id="tops">
+					<div class="section-block">
+						<div class="tm-slider-container full-width-slider">
+							<ul class="tms-slides">
+								<li class="tms-slide" data-image data-force-fit>
+									<h1 class="tms-caption title-medium letter-spaced weight-bold color-white no-margin-bottom"
+										data-offsety="-12"
+										data-animate-in="opacity:0;transY:-20;duration:600ms;delay:100ms;easing:swing;"
+									>
+										JULIA CHRISTIAN.
+									</h1>
+									<div class="clear"></div>
+									<p class="tms-caption text-medium weight-thin no-margin-bottom font-alt-2 color-white hide-on-mobile"
+										data-offsety="32"
+										data-animate-in="opacity:0;transY:10px;duration:600ms;easing:swing;delay:700ms;"
+									>
+										UX Designer // Made in Atlanta
+									</p>
+									<img data-src="images/slider/atlantafogbw.jpeg">
+								</li>
+							</ul>
+						</div>
 					</div>
-				</div>
+				</section>	
 				<!-- Fullscreen Slider Section End -->
 
 			<!-- Portfolio Grid Section 5 -->
-			<section id="THEGRIND">
+			<section id="thegrind">
 				<div class="section-block portfolio-5 full-width no-margins">
 					<div class="row">
 						<div class="column width-12">
@@ -237,44 +296,44 @@
 									<div class="thumbnail">
 										<!-- <a class="overlay-link" href="portfolio/orcha-clothing.html"> -->
 											<img src="images/portfolio/grid/whiteboard.JPG">
-											<span class="overlay-info animation-fade-in">
+											<!-- <span class="overlay-info animation-fade-in">
 												<span>
 													<span>
 														<span class="project-title">WHITEBOARD WALLS.</span><br>
 														<span class="project-description">communication at its finest</span>
 													</span>
 												</span>
-											</span>
+											</span> -->
 										<!-- </a> -->
 									</div>
 								</div>
 								<div class="grid-item identity">
 									<div class="thumbnail">
 										<!-- <a class="overlay-link" href="portfolio/palm-restaurant.html"> -->
-											<img src="images/portfolio/grid/feedbackflow.jpg" alt=""/>
-											<span class="overlay-info animation-fade-in">
+											<img src="images/portfolio/grid/feedbackflow.jpg" alt="Photograph"/>
+											<!-- <span class="overlay-info animation-fade-in">
 												<span>
 													<span>
 														<span class="project-title">FEEDBACK FLOW.</span><br>
 														<span class="project-description">critique with grace</span>
 													</span>
 												</span>
-											</span>
+											</span> -->
 										<!-- </a> -->
 									</div>
 								</div>
 								<div class="grid-item design">
 									<div class="thumbnail">
 										<!-- <a class="overlay-link" href="portfolio/angular-mockup.html"> -->
-											<img src="images/portfolio/grid/present.jpg" alt=""/>
-											<span class="overlay-info animation-fade-in">
+											<img src="images/portfolio/grid/present.jpg" alt="Photograph"/>
+											<!-- <span class="overlay-info animation-fade-in">
 												<span>
 													<span>
 														<span class="project-title">PRESENT.</span><br>
 														<span class="project-description">defend with grace</span>
 													</span>
 												</span>
-											</span>
+											</span> -->
 										<!-- </a> -->
 									</div>
 								</div>
@@ -289,13 +348,13 @@
 			<!-- Content End -->
 
 			<!-- Footer 1-->
-		<section id="CONTACT">
+		<section id="contact">
 			<footer class="footer-1 footer reveal-side-navigation">
 				<div class="footer-top left">
 					<div class="row">
 						<div class="column width-12 center">
 							<div class="footer-logo">
-								<img src="images/falconsig.png" alt="" />
+								<img src="images/falconsig.png" alt="Falcon Logo" />
 							</div>
 						</div>
 						<div class="column width-6 push-3 center">
@@ -317,7 +376,7 @@
 				<div class="section-block">
 					<div class="row collapse full-width">
 						<div class="column width-12">
-							<div class="map-container">
+							<div>
 								<img src="./images/team/atlantatreesbw.jpg">
 							</div>
 						</div>

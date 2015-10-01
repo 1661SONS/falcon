@@ -30,6 +30,56 @@
 </head>
 <body>
 
+<!-- Overlay Navigation Menu -->
+	<div class="overlay-navigation-wrapper hide-on-desktop">
+		<div class="overlay-navigation-inner">
+			<div class="overlay-navigation-header row full-width">
+				<div id="overlay-nav-hide" class="navigation-hide">
+					<a href="#">
+						<span class="icon-cancel medium"></span>
+					</a>
+				</div>
+			</div>
+			<nav class="overlay-navigation">
+				<ul>
+					<li>
+						<a href="../index.html">HOME</a>
+						<a href="#" class="contains-sub-menu">WORK</a>
+						<ul class="sub-menu">
+							<li>
+								<a href="portfolio/meded.html">MedEd + Google Glass</a>
+							</li>
+							<li>
+								<a href="portfolio/wholehealth.html">Mobile Healthcare</a>
+							</li>
+							<li>
+								<a href="portfolio/engineering.html">Green Engineering</a>
+							</li>
+							<li>
+								<a href="portfolio/typingclub.html">Teaching Tech</a>
+							</li>
+							<li>
+								<a href="portfolio/openGA.html">Startups for the Intrapreneurs</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="preach.html">PREACH</a>
+					</li>
+					<li>
+						<a href="about.html">ABOUT</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- <div class="overlay-navigation-footer row full-width">
+				<div class="column width-12">
+					<p class="copyright no-margin-bottom">&copy; 2015 JULIA CHRISTIAN.</p>
+				</div>
+			</div> -->
+		</div>
+	</div>
+	<!-- Overlay Navigation Menu End -->
+
 	<div class="wrapper">
 		<div class="wrapper-inner">
 
@@ -39,18 +89,25 @@
 					<div class="row nav-bar reveal-side-navigation">
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
-								<a href="../index.html"><img src="../images/falcon.png" alt="" /></a>
-								<a href="../index.html"><img src="../images/stackedsig.png" alt="" /></a>
+								<a href="#tops"><img src="../images/falcon.png" alt="Falcon Logo" /></a>
+								<a href="../index.html"><img src="../images/stackedsig.png" alt="Signature Logo" /></a>
 							</div>
 							<!-- <div id="side-nav-show" class="navigation-show">
 								<a href="#">
 									<span class="icon-menu medium"></span>
 								</a>
 							</div> -->
+
+							<div id="overlay-nav-show" class="navigation-show">
+								<a href="#">
+									<span class="icon-menu hide-on-desktop hamburger"></span>
+								</a>
+							</div>
+							
 							<nav class="navigation">
 								<ul>
 									<li>
-										<a href="../index.html#THEGRIND" style="color:#000;">Work</a>										
+										<a href="../index.html#thegrind" style="color:#000;">Work</a>				
 									</li>
 									<li>
 										<a href="../preach.html" style="color:#000;">Preach</a>
@@ -59,7 +116,7 @@
 										<a href="../about.html" style="color:#000;">About</a>
 									</li>									
 									<li>
-										<a href="#CONTACT" style="color:#000;">Contact</a>
+										<a href="#contact" style="color:#000;">Contact</a>
 									</li>
 								</ul>
 							</nav>
@@ -72,7 +129,8 @@
 			<!-- Content -->
 			<div class="content clearfix reveal-side-navigation">
 
-				<!-- Full Width Slider Section -->
+			<!-- Full Width Slider Section -->
+			<section id="tops">
 				<div class="section-block">
 					<div class="tm-slider-container full-width-slider project-8">
 						<ul class="tms-slides">
@@ -100,7 +158,8 @@
 						</ul>
 					</div>
 				</div>
-				<!-- Full Width Slider Section End -->
+			</section>
+			<!-- Full Width Slider Section End -->
 
 				<!-- Fullscreen Sections -->
 				<div id="section-1" class="section-block fullscreen-section background-fixed background-cover no-overlay">
@@ -258,13 +317,13 @@
 			<!-- Content End -->
 
 			<!-- Footer 1-->
-			<section id="CONTACT">
+			<section id="contact">
 			<footer class="footer-1 footer">
 				<div class="footer-top left">
 					<div class="row">
 						<div class="column width-12 center">
 							<div class="footer-logo">
-								<img src="../images/falconyuss.png" alt="" />
+								<img src="../images/falconsig.png" alt="Falcon Logo" />
 							</div>
 						</div>
 						<div class="column width-6 push-3 center">
