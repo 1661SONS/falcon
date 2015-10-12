@@ -2627,6 +2627,16 @@ only screen and (				min-resolution: 2dppx) {
 .portfolio-5 .grid-item img{
 	width: 100%;
 }
+
+#dumbledore {
+	width: 100vw;
+	height: 100vh;
+}
+
+#black-bg {
+	background-color: #000;
+}
+
 .portfolio-5 .thumbnail{
 	height: 100%;
 	overflow: hidden;

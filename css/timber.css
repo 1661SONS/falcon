@@ -4167,6 +4167,11 @@ a{
 }
 @media only screen and (max-width: 480px) {
 
+	#dumbledore-mobile {
+		width: 100vw;
+		height: 40vh;
+	}
+
 	.footer-logo img {
 	max-width: 75%;
 	padding-right: 5%;
