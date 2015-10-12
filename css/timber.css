@@ -3440,7 +3440,7 @@ pre code{
 
 /* Border Color Classes */
 [class*="border-"]{
-	border: 1px solid #eee;
+	border: 2.5px solid #eee;
 }
 [class*="border-"]:not([class*="bkg-"]),
 [class*="border-"][class*="bkg-hover-"],
