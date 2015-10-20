@@ -825,6 +825,16 @@ aside .widget li{
 	padding-bottom: 0.6rem;
 }
 
+article img {
+	-webkit-filter: saturate(0);
+	filter: saturate(0);
+}
+
+article img:hover {
+	-webkit-filter: saturate(1.5);
+	filter: saturate(1.5);
+}
+
 /*------------------------------------------------------------------
 [14. Resolution Media Queries]
 */
