@@ -826,8 +826,8 @@ aside .widget li{
 }
 
 article img {
-	-webkit-filter: saturate(0);
-	filter: saturate(0);
+	-webkit-filter: saturate(0.5);
+	filter: saturate(0.5);
 }
 
 article img:hover {
