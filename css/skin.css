@@ -1018,6 +1018,11 @@ textarea.required-field:focus{
 .social-list li a:hover{
 	color: #333;
 }
+
+/*#darkhover:hover{
+	color: #333;
+}*/
+
 .side-navigation-footer .social-list a,
 .footer-1 .social-list a, 
 .fullscreen-section footer .social-list a{
