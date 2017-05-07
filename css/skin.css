@@ -891,17 +891,17 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/portfolio/typingclub/tops.jpg);
 	}
 	.project-6-prev{
-		background-image: url(../images/portfolio/meded/mcgonagall.jpg);
+		background-image: url(../images/portfolio/typingclub/tops.jpg);
 	}
 	.project-4-next{
-		background-image: url(../images/portfolio/openGA/team.jpg);
+		background-image: url(../images/portfolio/insured/comps/dashhero.png);
 	}
 	.project-5-next,
 	.project-7-prev{
 		background-image: url(../images/portfolio/galogo.png);
 	}
 	.project-6-next{
-		background-image: url(../images/portfolio/engineering/ycosst.jpg);
+		background-image: url(../images/portfolio/openGA/team.jpg);
 	}
 	.project-8-prev{
 		background-image: url(../images/portfolio/openGA/team.jpg);
