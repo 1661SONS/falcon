@@ -4178,7 +4178,7 @@ only screen and (				min-resolution: 2dppx) {
 		padding: 4rem 1.5rem;
 	}
 	.pagination-2 .pagination-previous{
-		text-align: left;
+		text-align: right;
 	}
 	.pagination-2 .pagination-previous:after{
 		width: 10rem;
