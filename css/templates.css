@@ -2359,7 +2359,8 @@ only screen and (				min-resolution: 2dppx) {
 	overflow: hidden;
 }
 .team-4 .grid-item{
-	margin-bottom: 0;
+	margin-bottom: 0px;
+	/*height: 420px;*/
 }
 .team-4 .thumbnail{
 	margin-bottom: 0;
@@ -5168,6 +5169,10 @@ aside .widget li{
 
 /* Title and Text Media Queries */
 @media only screen and (max-width: 768px) {
+	.grid-item {
+		/*margin-bottom: 20px;*/
+		max-height: 498px;
+	}
 	.title-small,
 	.tms-caption-no-scaling .tms-caption.title-small,
 	.tms-caption-no-scaling .tms-caption .title-small,
@@ -5223,5 +5228,31 @@ aside .widget li{
 	.parallax .text-xlarge{
 		font-size: 2rem;
 		line-height: 1.7;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.grid-item {
+		max-height: 700px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.team-4 .grid-item{
+		/*margin-bottom: 0px;*/
+		max-height: 312px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.team-4 .grid-item{
+		margin-bottom: 10px;
+		max-height: 600px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.content-grid-5 .grid-item img {
+		max-width: 99%;
 	}
 }
