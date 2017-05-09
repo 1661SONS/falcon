@@ -894,7 +894,7 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/portfolio/meded/mcgonagall.jpg);
 	}
 	.project-4-next{
-		background-image: url(../images/portfolio/insured/comps/dashhero.png);
+		background-image: url(../images/portfolio/insured/comps/dash.png);
 	}
 	.project-5-next,
 	.project-7-prev{
@@ -927,6 +927,9 @@ only screen and (				min-resolution: 2dppx) {
 	}
 	.post-1-next{
 		background-image: url(../images/blog/pagination/ny-inspiration@2x.jpg);
+	}
+	.home-next{
+		background: url(../images/team/atlantatrees.jpg) 0px -65px;
 	}
 }
 
