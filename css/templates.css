@@ -5167,7 +5167,7 @@ aside .widget li{
     box-sizing: border-box;
 }
 
-/* Title and Text Media Queries */
+/* Title and Text Media Queries - Julia */
 @media only screen and (max-width: 768px) {
 	.grid-item {
 		/*margin-bottom: 20px;*/
@@ -5251,6 +5251,12 @@ aside .widget li{
 	}
 }
 
+@media only screen and (min-width: 481px) and (max-width: 601px) {
+	.content-grid-5 .grid-item img {
+		/*margin-bottom: 0px;*/
+		max-height: 174px;
+	}
+}
 @media only screen and (max-width: 1024px) {
 	.content-grid-5 .grid-item img {
 		max-width: 99%;
