@@ -4024,8 +4024,10 @@ only screen and (				min-resolution: 2dppx) {
 .pagination-2 .pagination-previous{
 	padding-left: 3rem;
 	padding-right: 5rem;
-	background: #f9f9f9;
+	/*background: #f9f9f9;*/
 	text-align: right;
+	background: rgba(238,238,238,0.7);
+	color: #000;
 }
 /*
 .pagination-2 .pagination-previous:after{
@@ -4041,16 +4043,18 @@ only screen and (				min-resolution: 2dppx) {
 .pagination-2 .pagination-next{
 	padding-right: 3rem;
 	padding-left: 5rem;
-	background: #eee;
+	background: rgba(238,238,238,0.7);
 	text-align: left;
+	color: #000;
 }
 .pagination-2 a:hover{
 	background: #ff0000;
 	/*background: rgba(0,0,0,0.3) !important;*/
 }
 .pagination-2 small{
-	font-size: 1.3rem;
+	font-size: 1.75rem;
 	display: block;
+	font-weight: 500;
 }
 .pagination-2 small span{
 	font-size: 1.3rem;
