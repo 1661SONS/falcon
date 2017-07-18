@@ -4044,8 +4044,8 @@ only screen and (				min-resolution: 2dppx) {
 	padding-right: 3rem;
 	padding-left: 5rem;
 	background: rgba(238,238,238,0.7);
-	text-align: left;
 	color: #000;
+	text-align: left;
 }
 .pagination-2 a:hover{
 	background: #ff0000;
